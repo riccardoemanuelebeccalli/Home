@@ -10,6 +10,40 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include <cstring>
+using namespace std;
+
+int scrivo_testo () {
+  	ofstream myfile;  // default ios::out
+  	double x, y, z;
+  	int i = 0;
+  	myfile.open ("esercizio1.txt");
+  	if (myfile.is_open())
+    	{
+    		do
+    		{
+	    		cout << "Inserisci x, y e z>\n";
+    			cin >> x;
+    			cin >> y;
+    			cin >> z;
+    		
+    			myfile << setprecision(4) << x << setw(8) << y << setw(12) << z << endl;
+    			i ++;
+    		}while(i < 5);
+    
+    		myfile.close();
+    	}
+  	cout << "ok: ho scritto il file\n";
+  	return 0;
+}
+
+int main()
+{
+	scrivo_testo();
+}
 
 # Header 1
 ## Header 2
