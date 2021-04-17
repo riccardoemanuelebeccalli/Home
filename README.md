@@ -1,6 +1,6 @@
 #Welcome to my site
 
-My name is Riccardo Emanuele Beccalli and I am a Physics student at the [University of Milan](www.fisica.unimi.it/)
+My name is Riccardo Emanuele Beccalli and I am a Physics student at the [University of Milan](https://www.fisica.unimi.it/)
 
 ## Welcome to GitHub Pages
 
